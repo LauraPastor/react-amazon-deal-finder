@@ -2,73 +2,75 @@
 https://oxylabs.go2cloud.org/SH2P
 -->
 
-# Getting Started with Create React App
+# React Amazon deal finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application Web Scrapper to flind the BIGGEST deals to flip on Amazon.de €€€.
+This project was created with a boiler plate with [npx create-react-app react-amazon-deal-finder].
 
-## Available Scripts
+## Overview
+Tired of blackfriday? I encourage you to have a walk with your loved ones instead but in case you really need to buy something you can scrap the big fish, Amazon.
+This project is a web application built with React on the frontend and a Node.js server on the backend.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Dynamic Deals list:** Keep track of the best deals of the day on the list.
+- **User-Friendly Interface:** Intuitive and easy-to-use interface for a seamless shopping experience.
+- **Amazon:** Leverage the power of Amazon catalog for generating the list.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js](https://nodejs.org/) installed
+- [React](https://reactjs.org/) installed
+- Oxylabs credentials (Sign up at [Oxylabs](https://oxylabs.go2cloud.org/SH2P) to get your username and password)
+- You can also choose which domain you need (might be Amazon.com instead) and also there other webs to scrap.
 
-### `npm test`
+## Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend (Node.js Server)
+1. Clone the repository:
+```sh
+git clone https://github.com/your-username/react-amazon-deal-finder.git
+```
+2. Navigate to the server directory:
+```bash
+cd react-amazon-deal-finder/server
+```
+3. Install dependencies:
+```bash
+npm install
+```
+4. Create a .env file in the server directory and add your OpenAI API key:
+```env
+USERNAME=username
+PASSWORD=password
+```
+5. Start the server:
+```bash
+npm run start:backend
+```
+The server will run on http://localhost:8000.
 
-### `npm run build`
+### Frontend (React App)
+1. Navigate to the client directory:
+```bash
+cd react-amazon-deal-finder/
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Start the React app:
+```bash
+npm run start:frontend
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Visit http://localhost:3000 in your browser.
+2. Have a look to the deals from the best on the top one.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributions
+There are currently some disabled button for scrapping pages like AliExpress, eBay or Etsy
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Enjoy!
+{octicons/shopping}
