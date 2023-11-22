@@ -73,4 +73,4 @@ npm run start:frontend
 There are currently some disabled button for scrapping pages like AliExpress, eBay or Etsy
 
 ## Enjoy!
-<img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white">
+🛒
