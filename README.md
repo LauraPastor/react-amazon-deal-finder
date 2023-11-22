@@ -1,3 +1,5 @@
+<!--Tired of blackfriday thingy? I encourage you to have a walk with your loved ones but in case you really need to buy something you can scrap the big fish, Amazon -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
