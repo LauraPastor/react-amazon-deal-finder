@@ -73,4 +73,4 @@ npm run start:frontend
 There are currently some disabled button for scrapping pages like AliExpress, eBay or Etsy
 
 ## Enjoy!
-<img src="https://github.com/LauraPastor/react-amazon-deal-finder/blob/master/src/assets/deal.png" />
+(image.png)
