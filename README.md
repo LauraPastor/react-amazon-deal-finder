@@ -1,4 +1,6 @@
-<!--Tired of blackfriday thingy? I encourage you to have a walk with your loved ones but in case you really need to buy something you can scrap the big fish, Amazon -->
+<!--Tired of blackfriday thingy? I encourage you to have a walk with your loved ones but in case you really need to buy something you can scrap the big fish, Amazon 
+https://oxylabs.go2cloud.org/SH2P
+-->
 
 # Getting Started with Create React App
 
